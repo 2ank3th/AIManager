@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AIManager:
-    :commit: f57d277532f3b40d286669aec23a8cc88886018f
+    :commit: a4a0a2852bebb6fa10c9c98230a794ebea6bdadd
     :git: https://github.com/2ank3th/AIManager.git
 
 SPEC CHECKSUMS:

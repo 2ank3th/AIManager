@@ -10,7 +10,7 @@
 import Foundation
 
 
-class AIM {
+public class AIM {
     
     
     private var started = false
