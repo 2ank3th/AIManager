@@ -1,0 +1,6 @@
+framework module AIManager {
+  umbrella header "AIManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

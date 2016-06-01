@@ -10,25 +10,25 @@
 import Foundation
 
 
-class AIM {
+class AIManager {
     
     
     private var started = false
     
     // swiftSharedInstance is not accessible from ObjC
-    class var swiftSharedInstance: AIM
+    class var swiftSharedInstance: AIManager
     {
         struct Singleton
         {
-            static let instance = AIM()
+            static let instance = AIManager()
         }
         return Singleton.instance
     }
     
     // the sharedInstance class method can be reached from ObjC
-    public static func sharedInstance() -> AIM
+    public static func sharedInstance() -> AIManager
     {
-        return AIM.swiftSharedInstance
+        return AIManager.swiftSharedInstance
     }
     
     

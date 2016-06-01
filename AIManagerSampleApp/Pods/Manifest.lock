@@ -1,0 +1,24 @@
+PODS:
+  - AIManager (1.0.0)
+  - Alamofire (3.4.0)
+
+DEPENDENCIES:
+  - AIManager (from `https://github.com/2ank3th/AIManager.git`)
+  - Alamofire (~> 3.0)
+
+EXTERNAL SOURCES:
+  AIManager:
+    :git: https://github.com/2ank3th/AIManager.git
+
+CHECKOUT OPTIONS:
+  AIManager:
+    :commit: f57d277532f3b40d286669aec23a8cc88886018f
+    :git: https://github.com/2ank3th/AIManager.git
+
+SPEC CHECKSUMS:
+  AIManager: 0b9b37570e61133520cc56df36b69ee378378c96
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+
+PODFILE CHECKSUM: 27f871de03c45edb4b0d04e7191f91ac346141f5
+
+COCOAPODS: 1.0.0

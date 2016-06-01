@@ -1,0 +1,23 @@
+{
+  "name": "AIManager",
+  "version": "1.0.0",
+  "summary": "S",
+  "homepage": "https://github.com/2ank3th/AIManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Your Name": "sankethpurwar@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/2ank3th/AAIManager.git",
+    "tag": "v1.0.0",
+    "submodules": true
+  },
+  "source_files": "AIManager/**/*.{h,swift}"
+}
