@@ -59,9 +59,9 @@ public class AIM {
     }
     
     @objc func startAI(){
-        ProgressAnimationView.startAnimating()
+        ProgressAnimationView.instance.startAnimating()
     }
     @objc func stopAI(){
-        ProgressAnimationView.stopAnimating()
+        ProgressAnimationView.instance.stopAnimating()
     }
 }
