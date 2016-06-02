@@ -10,7 +10,7 @@
 import Foundation
 
 
-class AIM {
+public class AIM {
     
     
     private var started = false
@@ -59,9 +59,9 @@ class AIM {
     }
     
     @objc func startAI(){
-        ProgressAnimationView.startAnimating()
+        ProgressAnimationView.instance.startAnimating()
     }
     @objc func stopAI(){
-        ProgressAnimationView.stopAnimating()
+        ProgressAnimationView.instance.stopAnimating()
     }
 }
